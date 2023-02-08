@@ -7,6 +7,11 @@ import Propiedades from './components/props/Propiedades';
 import Estado from './components/estado/Estado';
 import CondicionalRender from './components/condicionalRender/CondicionalRender';
 import RenderizadoElementos from './components/elementRender/ElementRender';
+import EventBinding from './components/eventBinding/EventBinding';
+import MoreEvents from './components/moreEvents/MoreEvents';
+import Padre from './components/comunicacionComponents/ComunicacionComponentes';
+import CicloVida from './components/cicloVidaComponentes/CicloVida';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +26,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Estudiando React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -36,7 +41,7 @@ function App() {
       <section>
         <Componentes msg="Hi, I'm a component."/>
         <hr />
-        <Propiedades 
+        <Propiedades
           cadena = "Esto es una cadena"
           numero = {19}
           booleano = {true}
@@ -55,6 +60,14 @@ function App() {
         <CondicionalRender />
         <hr/>
         <RenderizadoElementos />
+        <hr />
+        <EventBinding />
+        <hr />
+        <MoreEvents />
+        <hr />
+        <Padre />
+        <hr />
+        <CicloVida />
       </section>
     </div>
   )
