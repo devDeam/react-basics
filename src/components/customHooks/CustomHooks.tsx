@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useFetch } from '../../hooks/useFetch';
 
 const CustomHooks = (): JSX.Element => {
-    const URL: string = "https://pokeapi.co/api/v2/pokemons/";
+    const URL: string = "https://pokeapi.co/api/v2/pokemon/";
     let { data, isPending, error }: any = useFetch(URL);
 
     return(
