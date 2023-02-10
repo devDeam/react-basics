@@ -11,11 +11,16 @@ import EventBinding from './components/eventBinding/EventBinding';
 import MoreEvents from './components/moreEvents/MoreEvents';
 import Padre from './components/comunicacionComponents/ComunicacionComponentes';
 import CicloVida from './components/cicloVidaComponentes/CicloVida';
+import ContadorHooks from './components/useState/ContadorHooks';
+import ScrollHooks from './components/useEffect/ScrollHooks';
+import RelojHooks from './components/useEffect/RelojHooks';
+import AjaxHooks from './components/AjaxHooks/AjaxHooks';
+import CustomHooks from './components/customHooks/CustomHooks';
+
 
 
 function App() {
   const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <div>
@@ -68,6 +73,16 @@ function App() {
         <Padre />
         <hr />
         <CicloVida />
+        <hr />
+        <ContadorHooks />
+        <hr />
+        <ScrollHooks />
+        <hr />
+        <RelojHooks />
+        <hr />
+        <AjaxHooks />
+        <hr />
+        <CustomHooks />
       </section>
     </div>
   )
