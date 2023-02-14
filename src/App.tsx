@@ -16,8 +16,9 @@ import ScrollHooks from './components/useEffect/ScrollHooks';
 import RelojHooks from './components/useEffect/RelojHooks';
 import AjaxHooks from './components/AjaxHooks/AjaxHooks';
 import CustomHooks from './components/customHooks/CustomHooks';
-
-
+import Referencias from './components/referencias/Referencias';
+import Formularios from './components/formularios/Formularios';
+import FormularioComplejo from './components/formularios/FormularioComplejo';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -83,6 +84,12 @@ function App() {
         <AjaxHooks />
         <hr />
         <CustomHooks />
+        <hr />
+        <Referencias />
+        <hr />
+        <Formularios />
+        <hr />
+        <FormularioComplejo />
       </section>
     </div>
   )
