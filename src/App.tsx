@@ -19,6 +19,8 @@ import CustomHooks from './components/customHooks/CustomHooks';
 import Referencias from './components/referencias/Referencias';
 import Formularios from './components/formularios/Formularios';
 import FormularioComplejo from './components/formularios/FormularioComplejo';
+import Estilos from './components/estilos/Estilos';
+import StyledComponents from './components/styled-components/StyledComponents';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -90,6 +92,10 @@ function App() {
         <Formularios />
         <hr />
         <FormularioComplejo />
+        <hr />
+        <Estilos />
+        <hr />
+        <StyledComponents />
       </section>
     </div>
   )

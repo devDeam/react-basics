@@ -1,0 +1,14 @@
+.error {
+    background-color: #dc3545;
+    width: 10%;
+    border-radius: .4rem;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+.success {
+    background-color: #198754;
+    width: 10%;
+    border-radius: .4rem;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
